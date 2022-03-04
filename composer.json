@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "genesis/behat-sql-extension": "~6.3",
-        "php": "~5.5||~7.0||~8.0"
+        "php": "~5.5||~7.0||~8.0",
+        "srathbone/behat-sql-extension": "~6.4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.8",

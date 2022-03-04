@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2f7bb78e3b1f45fa0d995ecf930192e",
+    "content-hash": "08800997f95d38171e4e78e8b4b034e6",
     "packages": [
         {
             "name": "behat/behat",
@@ -219,64 +219,6 @@
             "time": "2017-02-14T19:40:03+00:00"
         },
         {
-            "name": "genesis/behat-sql-extension",
-            "version": "6.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/forceedge01/behat-sql-extension.git",
-                "reference": "8df31cd0641521b805488176faf0c6deb1f8a5db"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/forceedge01/behat-sql-extension/zipball/8df31cd0641521b805488176faf0c6deb1f8a5db",
-                "reference": "8df31cd0641521b805488176faf0c6deb1f8a5db",
-                "shasum": ""
-            },
-            "require": {
-                "behat/behat": "~3.0",
-                "ext-pdo": "*",
-                "php": "~5.5|~7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8"
-            },
-            "suggest": {
-                "genesis/sql-api-wrapper": "Extends behat-sql-extension to provide a powerful and simple framework to manage your data modules.",
-                "genesis/test-routing": "Simplistic routing that can extend main app routing for testing purposes."
-            },
-            "type": "behat-extension",
-            "autoload": {
-                "psr-4": {
-                    "Genesis\\SQLExtension\\": "src/",
-                    "Genesis\\SQLExtension\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Abdul Wahhab Qureshi",
-                    "email": "its.inevitable@hotmail.com"
-                }
-            ],
-            "description": "SQL/PDO extension that facilitates fixture data creation on the fly for Behat",
-            "keywords": [
-                "BDD",
-                "Fixture",
-                "behaviour",
-                "browser",
-                "gui",
-                "integration",
-                "pdo",
-                "test",
-                "testing",
-                "web"
-            ],
-            "time": "2018-09-20T23:26:44+00:00"
-        },
-        {
             "name": "psr/container",
             "version": "1.0.0",
             "source": {
@@ -371,6 +313,67 @@
                 "psr-3"
             ],
             "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "srathbone/behat-sql-extension",
+            "version": "6.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/srathbone/behat-sql-extension.git",
+                "reference": "0cd6908fe530e9dc629ecc3976597ed5fa71cff3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/srathbone/behat-sql-extension/zipball/0cd6908fe530e9dc629ecc3976597ed5fa71cff3",
+                "reference": "0cd6908fe530e9dc629ecc3976597ed5fa71cff3",
+                "shasum": ""
+            },
+            "require": {
+                "behat/behat": "~3.0",
+                "ext-pdo": "*",
+                "php": "~5.5||~7.0||~8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "genesis/sql-api-wrapper": "Extends behat-sql-extension to provide a powerful and simple framework to manage your data modules.",
+                "genesis/test-routing": "Simplistic routing that can extend main app routing for testing purposes."
+            },
+            "type": "behat-extension",
+            "autoload": {
+                "psr-4": {
+                    "Genesis\\SQLExtension\\": "src/",
+                    "Genesis\\SQLExtension\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdul Wahhab Qureshi",
+                    "email": "its.inevitable@hotmail.com"
+                }
+            ],
+            "description": "SQL/PDO extension that facilitates fixture data creation on the fly for Behat",
+            "keywords": [
+                "BDD",
+                "Fixture",
+                "behaviour",
+                "browser",
+                "gui",
+                "integration",
+                "pdo",
+                "test",
+                "testing",
+                "web"
+            ],
+            "support": {
+                "source": "https://github.com/srathbone/behat-sql-extension/tree/6.4.3"
+            },
+            "time": "2022-03-04T14:11:03+00:00"
         },
         {
             "name": "symfony/class-loader",
@@ -3057,7 +3060,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~5.5|~7.0"
+        "php": "~5.5||~7.0||~8.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
